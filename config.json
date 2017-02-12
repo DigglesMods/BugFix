@@ -1,0 +1,18 @@
+{
+	"version" : "1.0",
+	"author" : "cech12",
+	
+	"name" :  {
+		"en" : "BugFix",
+		"de" : "BugFix"
+	},
+	"description" : {
+		"en" : "Fix some bugs (GnomeAgeBug, syntax errors, wrong calculation transport experience).",
+		"de" : "Behebt mehrere Bugs (GnomeAgeBug, einige Syntax-Fehler, Transport-Erfahrung falsch berechnet)"
+	},
+	
+	"links" : {
+		"download" : "https://github.com/DigglesMods/BugFix/releases",
+		"wiki" : "https://github.com/DigglesMods/BugFix/wiki"
+	}
+}
