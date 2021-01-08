@@ -1,5 +1,12 @@
 $start
 $replace
+de "Schwertkampftraining"
+$with
+de "Einhandkampftraining"
+$end
+
+$start
+$replace
 en "Amulett Issnichschick"
 $with
 en "Amulet Isnotnice"
