@@ -22,8 +22,8 @@ $with
 			global guesttimer
 			set rlst [list]
 			if {[dist_between this $current_worker]>10} {
-                lappend rlst "prod_goworkdummy 0"
-            }
+				lappend rlst "prod_goworkdummy 0"
+			}
 $end
 
 $start
@@ -58,20 +58,20 @@ $replace
 $with
 					if {$mostbeercnt>$beercnt} {
 						set othertable [expr [lindex $mostorder 0]^2]
-                        set otherseat [expr $othertable^1]
-                        set othertableorder [prod_guest getorder this $othertable]
-                        set othertableotherseatorder [prod_guest getorder this $otherseat]
-                        if {$othertableorder+$othertableotherseatorder > 0} {
-                            if {$othertableorder >= $othertableotherseatorder} {
-                                lappend maxorder $othertableorder
-                                lappend mostorder $othertable
-                                incr beercnt
-                            }
-                            if {($mostbeercnt>$beercnt) && ($othertableotherseatorder>0)} {
-                                lappend maxorder $othertableotherseatorder
-                                lappend mostorder $otherseat
-                                incr beercnt
-                            }
-                        }
-                    }
+						set otherseat [expr $othertable^1]
+						set othertableorder [prod_guest getorder this $othertable]
+						set othertableotherseatorder [prod_guest getorder this $otherseat]
+						if {$othertableorder+$othertableotherseatorder > 0} {
+							if {$othertableorder >= $othertableotherseatorder} {
+								lappend maxorder $othertableorder
+								lappend mostorder $othertable
+								incr beercnt
+							}
+							if {($mostbeercnt>$beercnt) && ($othertableotherseatorder>0)} {
+								lappend maxorder $othertableotherseatorder
+								lappend mostorder $otherseat
+								incr beercnt
+							}
+						}
+					}
 $end
