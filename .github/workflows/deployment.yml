@@ -5,14 +5,13 @@ name: Deployment
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
     tags: ["v*"]
 
 jobs:
   publish-mod:
     if: startsWith(github.ref, 'refs/tags/')
     name: Publish Mod
-    uses: DigglesMods/DigglesModActions/.github/workflows/publish-mod.yml@main
+    uses: DigglesMods/DigglesModActions/.github/workflows/publish_mod.yml@main
     with:
       mod-title: BugFix
       mod-name: BugFix
