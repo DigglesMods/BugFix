@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [next]
+### Added
+- bugfix: hospital might get stuck when a patient dies during treatment
+
 ## [v1.5] - 2024-08-25
 ### Added
 - bugfix: workaround for when the bowling alley is stuck because the gnome registered as current bowler has left somehow. (thanks to saibantes)
