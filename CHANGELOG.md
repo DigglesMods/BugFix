@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [next]
+### Added
+- bugfix: when the floor is already cluttered with stuff, gnomes might fail to lay down an item they just produced
+
 ## [v1.5] - 2024-08-25
 ### Added
 - bugfix: workaround for when the bowling alley is stuck because the gnome registered as current bowler has left somehow. (thanks to saibantes)
