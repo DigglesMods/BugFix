@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 ## [next]
 ### Added
 - bugfix: when the floor is already cluttered with stuff, gnomes might fail to lay down an item they just produced
+- bugfix: hospital might get stuck when a patient dies during treatment
 
 ## [v1.5] - 2024-08-25
 ### Added
