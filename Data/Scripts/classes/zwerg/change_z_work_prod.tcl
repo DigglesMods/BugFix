@@ -72,6 +72,15 @@ $end
 
 $start
 $replace
+		0 {
+			tasklist_add this "prod_machineanim krankenhaus.tisch_oben once"
+$with
+		0 {
+			tasklist_add this "prod_machineanim krankenhaus.tisch_hoch once"
+$end
+
+$start
+$replace
 if {$richtung == "right"} {set negx 0; set posx 10} else {set negx -10; set posx 0"}
 $with
 if {$richtung == "right"} {set negx 0; set posx 10} else {set negx -10; set posx 0}
