@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - bugfix: removed duplicate code section, thus reducing mood loss due to bad sleep quality by 50%
 - bugfix: fixed hospital animations
 - bugfix: fixed some work-time idle animations
+- bugfix: wrong animation state when a gnome leaves the gym #33
 
 ## [v1.5] - 2024-08-25
 ### Added
