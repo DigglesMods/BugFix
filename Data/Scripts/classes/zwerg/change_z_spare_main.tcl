@@ -62,3 +62,19 @@ $with
 						}
 						if {[lindex $sparetime_goal 1]>[get_attrib this atr_Mood]+0.01} {
 $end
+
+$start
+$replace
+		if {$civ_state>$funloss_slpquality} {
+			set moodloss [expr {$civ_state-$funloss_slpquality}]
+			sparetime_talkissue_entry "slp" $moodloss 0
+			set moodloss [expr {$moodfactor*$moodloss}]
+			fincr tll_fl_slpquality $moodloss
+			fincr sumloss $moodloss
+		}
+		set funstations 0
+		for {set i 1} {$i<17} {set i [expr {$i<<1}]} {
+$with
+		set funstations 0
+		for {set i 1} {$i<17} {set i [expr {$i<<1}]} {
+$end

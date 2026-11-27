@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - bugfix: when the floor is already cluttered with stuff, gnomes might fail to lay down an item they just produced
 - bugfix: hospital might get stuck when a patient dies during treatment
 - bugfix: fixed the goal for mood during sparetime acivities
+- bugfix: removed duplicate code section, thus reducing mood loss due to bad sleep quality by 50%
 
 ## [v1.5] - 2024-08-25
 ### Added
