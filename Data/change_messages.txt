@@ -625,3 +625,19 @@ nl "Player 8 won"
 
 ## "Trainingspuppe"
 $end
+
+
+$start
+$before
+## "TransportPos0"
+$put
+## "transport"
+en "carries"
+de "transportiert"
+fr "transporte"
+it "trasporta"
+nl "vervoert"
+es "transporta"
+
+
+$end
