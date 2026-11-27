@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - bugfix: fixed the goal for mood during sparetime acivities
 - bugfix: removed duplicate code section, thus reducing mood loss due to bad sleep quality by 50%
 - bugfix: fixed hospital animations
+- bugfix: fixed some work-time idle animations
 
 ## [v1.5] - 2024-08-25
 ### Added
