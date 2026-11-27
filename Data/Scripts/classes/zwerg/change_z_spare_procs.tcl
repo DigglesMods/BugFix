@@ -16,3 +16,21 @@ proc sparetime_eat_end {} {
 	sparetime_check_in 0
 	set sparetime_disappointment 0.0
 $end
+$start
+$replace
+	if {$arzt == 0 } {
+		set patient 0
+	} else {
+		set patient [call_method $sparetime_current_place_ref get_patient]
+	}
+$with
+	set patient [call_method $sparetime_current_place_ref get_patient]
+$end
+$start
+$replace
+			4 {
+				tasklist_add this "walk_dummy $sparetime_current_place_ref 19"
+$with
+			4 {
+				tasklist_add this "walk_dummy $sparetime_current_place_ref 17"
+$end
