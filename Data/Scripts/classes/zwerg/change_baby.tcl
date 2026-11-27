@@ -5,6 +5,7 @@ $before
 $put
 method getbirthtime {} {
 	global birthtime
+	if {![info exists birthtime]} {set birthtime [get_attrib this GnomeAge]}
 	return $birthtime
 }
 
@@ -33,4 +34,12 @@ $replace
 [gettime]-[get_attrib this GnomeAge]
 $with
 [gettime]-$birthtime
+$end
+
+$start
+$replace
+if {$im_grownup} {return}
+$with
+if {$im_grownup} {return}
+			if {![info exists birthtime]} {set birthtime [get_attrib this GnomeAge]}
 $end
