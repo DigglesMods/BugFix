@@ -23,3 +23,17 @@ $put
 		}
 
 $end
+
+$start
+$replace
+		set mo1 [partner_info getfather this]
+$with
+		set mo1 [partner_info getmother this]
+$end
+
+$start
+$replace
+									set mo2 [partner_info getfather $gnome]
+$with
+									set mo2 [partner_info getmother $gnome]
+$end
