@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - bugfix: missing techtree texts for gold, iron, crystal and bar service (German and English, thanks to Landvogt90 for the German texts) #9
 - bugfix: German activity text of fighting gnomes ("kampf" -> "kämpft gegen") (thanks to Landvogt90 for the hint) #11
 - bugfix: wrong animation state when a gnome leaves the gym (thanks to saibantes for reporting) #33
+- bugfix: packed buildings that were built before could block placing buildings in the floor above a warehouse (thanks to saibantes for reporting) #34
 
 ## [v1.5] - 2024-08-25
 ### Added
