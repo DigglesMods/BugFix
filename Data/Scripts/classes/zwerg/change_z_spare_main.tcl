@@ -78,3 +78,12 @@ $with
 		set funstations 0
 		for {set i 1} {$i<17} {set i [expr {$i<<1}]} {
 $end
+
+$start
+$replace
+		if {$at_Hi<0.97&&[sparetime_ill_check]} {
+$with
+		global is_old
+		// gnomes dying of old age should not occupy the hospital
+		if {$at_Hi<0.97&&$is_old<3&&[sparetime_ill_check]} {
+$end
