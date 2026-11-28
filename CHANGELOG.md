@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - new console command `fix_fenris` which puts Fenris back on his throne if he was removed before the mod was installed (thanks to saibantes) #31
 - bugfix: missing techtree texts for gold, iron, crystal and bar service (German and English, thanks to Landvogt90 for the German texts) #9
 - bugfix: German activity text of fighting gnomes ("kampf" -> "kämpft gegen") (thanks to Landvogt90 for the hint) #11
+- bugfix: wrong animation state when a gnome leaves the gym (thanks to saibantes for reporting) #33
 
 ## [v1.5] - 2024-08-25
 ### Added
