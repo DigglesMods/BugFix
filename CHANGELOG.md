@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - new console command `fix_fenris` which puts Fenris back on his throne if he was removed before the mod was installed (thanks to saibantes) #31
 - bugfix: missing techtree texts for gold, iron, crystal and bar service (German and English, thanks to Landvogt90 for the German texts) #9
 - bugfix: German activity text of fighting gnomes ("kampf" -> "kämpft gegen") #11
-- bugfix: babies born before the mod was installed could not grow up and disappeared (missing birth time in old savegames) #13
+- bugfix: babies born before the mod was installed could not grow up and disappeared (missing birth time in old savegames) (thanks to Tabasco for reporting) #13
 
 ## [v1.5] - 2024-08-25
 ### Added
