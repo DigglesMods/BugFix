@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - bugfix: fixed some work-time idle animations
 - bugfix: relatives were not detected correctly when gnomes search a partner (mother was not considered) #29
 - bugfix: missing text "transport" shown when a gnome carries material to a production site #36
+- bugfix: when a gnome checked in directly at a sparetime place (without reservation), the reservation flag and disappointment value were only set locally, so stale global values were used later (thanks to saibantes)
 - new console command `fix_fenris` which puts Fenris back on his throne if he was removed before the mod was installed (thanks to saibantes) #31
 
 ## [v1.5] - 2024-08-25
