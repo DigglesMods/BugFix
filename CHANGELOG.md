@@ -5,19 +5,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [next]
 ### Added
-- bugfix: when the floor is already cluttered with stuff, gnomes might fail to lay down an item they just produced
-- bugfix: hospital might get stuck when a patient dies during treatment
-- bugfix: fixed the goal for mood during sparetime acivities
-- bugfix: removed duplicate code section, thus reducing mood loss due to bad sleep quality by 50%
-- bugfix: fixed hospital animations
-- bugfix: fixed some work-time idle animations
-- bugfix: relatives were not detected correctly when gnomes search a partner (mother was not considered) #29
-- bugfix: missing text "transport" shown when a gnome carries material to a production site #36
-- bugfix: when a gnome checked in directly at a sparetime place (without reservation), the reservation flag and disappointment value were only set locally, so stale global values were used later (thanks to saibantes)
+- bugfix: when the floor is already cluttered with stuff, gnomes might fail to lay down an item they just produced (ported from the RevisedPlanner mod, thanks to saibantes) #26
+- bugfix: hospital might get stuck when a patient dies during treatment (ported from the RevisedPlanner mod, thanks to saibantes) #25
+- bugfix: fixed the goal for mood during sparetime activities (ported from the RevisedPlanner mod, thanks to saibantes) #27
+- bugfix: removed duplicate code section, thus reducing mood loss due to bad sleep quality by 50% (ported from the RevisedPlanner mod, thanks to saibantes) #28
+- bugfix: fixed hospital animations (ported from the RevisedPlanner mod, thanks to saibantes) #30
+- bugfix: fixed some work-time idle animations (ported from the RevisedPlanner mod, thanks to saibantes) #35
+- bugfix: relatives were not detected correctly when gnomes search a partner (mother was not considered) (thanks to Stritch for reporting) #29
+- bugfix: missing text "transport" shown when a gnome carries material to a production site (thanks to saibantes for reporting) #36
+- bugfix: when a gnome checked in directly at a sparetime place (without reservation), the reservation flag and disappointment value were only set locally, so stale global values were used later (ported from the RevisedPlanner mod, thanks to saibantes) #43
 - new console command `fix_fenris` which puts Fenris back on his throne if he was removed before the mod was installed (thanks to saibantes) #31
 - bugfix: missing techtree texts for gold, iron, crystal and bar service (German and English, thanks to Landvogt90 for the German texts) #9
-- bugfix: German activity text of fighting gnomes ("kampf" -> "kämpft gegen") #11
-- bugfix: wrong animation state when a gnome leaves the gym #33
+- bugfix: German activity text of fighting gnomes ("kampf" -> "kämpft gegen") (thanks to Landvogt90 for the hint) #11
+- bugfix: wrong animation state when a gnome leaves the gym (thanks to saibantes for reporting) #33
 
 ## [v1.5] - 2024-08-25
 ### Added
